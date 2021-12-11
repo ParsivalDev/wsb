@@ -6,7 +6,15 @@ namespace ppk_main
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Helloss World!");
+            int silnia = 1;
+            for (int i = 1; i <= 9; i++)
+            {
+
+                silnia *= i; // silnia = silnia * i
+                Console.WriteLine(silnia);
+
+            }
         }
     }
 }
+
