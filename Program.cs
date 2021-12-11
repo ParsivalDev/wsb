@@ -11,21 +11,33 @@ namespace ppk_main
             Console.WriteLine("Wpisz liczbe nr 2");
             int liczba_d = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Wprowadz '+' dla dodawania lub '-' dla odejmowani");
+            Console.WriteLine("Wprowadz '+' dla dodawania, '-' dla odejmowani lub '*' dla mnożenia");
             char znak = Console.ReadLine()[0];
 
 
-            if (znak == '-') {
-
-                Console.WriteLine(liczba_j - liczba_d);
-
-            }else if(znak == '+')
+            switch (znak)
             {
-                Console.WriteLine(liczba_j + liczba_d);
-            }
-            else
-            {
-                Console.WriteLine("nie obsługuję tego znaku");
+                case '+':
+
+                    // dod
+                    Console.WriteLine(liczba_j + liczba_d);
+                    break;
+
+                case '-':
+
+                    Console.WriteLine(liczba_j - liczba_d);
+                    // od
+                    break;
+
+                case '*':
+
+                    Console.WriteLine(liczba_j * liczba_d);
+                    break;
+
+                default:
+                    // brak
+                    Console.WriteLine("Nie obsługuję takiego znaku!");
+                    break;
             }
         }
     }
