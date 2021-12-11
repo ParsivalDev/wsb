@@ -6,8 +6,10 @@ namespace ppk_main
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Wpisz liczbe z ktorej mam policzyc silnie !(liczba)");
+            int liczba = Convert.ToInt32(Console.ReadLine());
             int silnia = 1;
-            for (int i = 1; i <= 9; i++)
+            for (int i = 1; i <= liczba; i++)
             {
 
                 silnia *= i; // silnia = silnia * i
