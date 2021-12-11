@@ -1,0 +1,6 @@
+/Users/notbarwi/Projects/ppk_main/bin/Debug/ppk_projekt.exe
+/Users/notbarwi/Projects/ppk_main/bin/Debug/ppk_projekt.pdb
+/Users/notbarwi/Projects/ppk_main/obj/Debug/ppk_projekt.csprojAssemblyReference.cache
+/Users/notbarwi/Projects/ppk_main/obj/Debug/ppk_projekt.csproj.CoreCompileInputs.cache
+/Users/notbarwi/Projects/ppk_main/obj/Debug/ppk_projekt.exe
+/Users/notbarwi/Projects/ppk_main/obj/Debug/ppk_projekt.pdb

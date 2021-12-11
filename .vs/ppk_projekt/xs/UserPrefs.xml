@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{C529B1EE-B4AE-450E-9D53-16434D106020}|Default">
-  <MonoDevelop.Ide.ItemProperties.ppk__main PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{B121DFED-8DA6-47E3-A409-EBA0FC113B2A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="52" />
+      <File FileName="Program.cs" Line="9" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ppk_main" expanded="True">
-            <Node name="ppk_main" expanded="True">
+          <Node name="ppk_projekt" expanded="True">
+            <Node name="ppk_projekt" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,6 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.ppk__projekt FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
