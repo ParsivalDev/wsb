@@ -41,7 +41,7 @@ namespace ppk_main
                         Console.WriteLine("Nie można dzielić przez 0, sprobuj ponownie!");
                     }
                     else
-                    Console.WriteLine(liczba_j * liczba_d);
+                    Console.WriteLine(liczba_j / liczba_d);
                     break;
 
                 default:
