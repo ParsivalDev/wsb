@@ -6,8 +6,8 @@ namespace ppk_main
     {
         public static void Main(string[] args)
         {
-            int silnia = 1;
-            for (int i = 1; i <= 9; i++)
+            ulong silnia = 1;
+            for (ulong i = 1; i <= 243; i++)
             {
 
                 silnia *= i; // silnia = silnia * i
